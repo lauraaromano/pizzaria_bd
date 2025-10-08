@@ -1,0 +1,84 @@
+body {
+    background-color: #f7e8d0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container-edicao {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff5e1;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #b22222;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #ffcc66;
+    outline: none;
+}
+
+.botoes-acao {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.botoes-acao button.salvar {
+    background: #eee;
+    color: black;
+    padding: 8px 18px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.botoes-acao button.salvar:hover {
+    background: #ddd;
+    border-color: #999;
+}
+
+.botoes-acao a.link-cancelar {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #800080;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botoes-acao a.link-cancelar:hover {
+    color: #5d005d;
+}
